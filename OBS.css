@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #121212;
+}
+.logo-img{
+    height: 50px;
+    margin-right: 1rem;
+    /* transform: translate(3ch, 3mm); */
+}
+.Search-1{
+    height: 34px;
+    border-radius: 9px;
+    margin-right: 1rem;
+   
+}
+.Top-bar{
+    display: flex;
+    width: 100vw;
+    /* background-color: red; */
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+}
+.location{
+    background-color: #ffdf57;
+    font-weight: bolder;
+}
+.nav-bar{
+    display: flex;
+    width: 100vw;
+    height: 40px;
+    background-color: blue;
+}
+.nav-1{
+    width: 5%;
+    background-color: #ffe98a;
+}
+.icons{
+    margin-right: 1rem;
+}
+.icons-text{
+    color: black;
+}
+.icons-text:hover{
+    opacity: 1;
+}
+.nav-2{
+    width: 90%;
+    background-color: #ffe98a;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.nav-3{
+    width: 5%;
+    background-color: #ffe98a;
+}
+.heading{
+    text-align: center;
+    color: #f6d638;
+    background-color: #121212;
+}
+.bolder{
+    font-weight: 800;
+}
+.main-cont{
+    width: 100vw;
+    height: 100vh;
+    background-color: #121212;
+}
+.card-cont{
+    display: flex;
+    flex-wrap: nowrap;
+    /* display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 17%;
+    overflow-x: auto;
+    gap: var(--size3--); */
+    background-color: #121212;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+    
+}
+.card{
+    width: 250px;
+    
+    background-color: #121212;
+    border-radius: 15px;
+    margin-right: 1rem;
+    margin-top: 1rem; 
+    /* padding: 1rem; */
+    
+}
+.card-img{
+    width: 100%;
+    height: 331px;
+    border-radius: 15px;
+}
+
+.card-title{
+    color: #ffdf57;
+    margin-top: 0.5rem;
+}
+.card-info{
+    color: #ffe98a;
+    margin-top: 0.5rem;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px #ffdf57;
+}
+.footer{
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 410px;
+    background-color: #121212;
+    
+}
+.Event{
+    display: flex;
+    
+    /* justify-content: center;
+    align-items: center; */
+    margin-right: 1.5rem;
+    background-color: #121212;
+    border-radius: 15px;
+    z-index: 10;
+    
+}
+.Event:hover{
+    box-shadow: 0 0 10px 5px #ffdf57;
+    cursor: pointer;
+}
+.E-img{
+    width: 220px;
+    height: 220px;
+    border-radius: 15px;
+}
+.Music{
+    width: 200px;
+    height: 545px;
+    border-radius: 15px;
+    margin-right: 1rem;
+}
+.Music:hover{
+    box-shadow: 0 0 10px 5px #ff7e57;
+    cursor: pointer;
+}
+.M-img{
+    width: 100%;
+    border-radius: 15px;
+    /* padding: 1rem; */
+    
+}
+.Music-title{
+    margin-top: 10px;
+    color: #ffdf57;
+    font-weight: 600;
+}
+.Music-info{
+    color: #ffe98a;
+    font-weight: 200;
+}
+.Quote{
+    color: #f6d638;
+    margin-top: 2rem;
+    text-align: center;
+}
+.about{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10rem;
+    width: 28%;
+    height: 400px;
+    color: white;
+    /* border: solid 4px #f6d638; */
+    border-radius: 20px;
+    padding: 1rem;
+    margin-right: 1rem;
+    
+}
+.contact{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10rem;
+    width: 28%;
+    height: 400px;
+    color: white;
+    /* border: solid 4px #f6d638; */
+    border-radius: 20px;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.about:hover{
+    box-shadow: 0 0 10px 5px #f6d638;
+    cursor: pointer;
+}
+.contact:hover{
+    box-shadow: 0 0 10px 5px #f6d638;
+    cursor: pointer;
+}
+.footer-icons{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10rem;
+    width: 40%;
+    height: 400px;
+    color: white;
+    /* border: solid 4px #f6d638; */
+    border-radius: 20px;
+    padding: 1rem;
+}
+.fi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icons:hover{
+    box-shadow: 0 0 10px 5px #f6d638;
+    cursor: pointer;  
+}
+.icons-text-1{
+    text-align: center;
+}
